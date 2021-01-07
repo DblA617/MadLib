@@ -1,0 +1,29 @@
+
+
+
+h1{
+  font-size: xx-large;
+  font-family: cursive;
+  
+
+}
+
+input{
+    display: block;
+    width: 25vh;
+    height: 4vh;
+    padding: 10px;
+    border-bottom: solid .1vh rgb(21, 23, 192);
+  }
+  #input-box{
+      background-color: aquamarine;
+  }
+  input:hover{
+    border-bottom: solid .10vh rgb(177, 53, 189);
+  }
+  body{
+    background-color: rgb(243, 73, 186);
+  }
+  #image-border{
+    border: 30px rgb(224, 121, 3) solid;
+  }
