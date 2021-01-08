@@ -2,10 +2,10 @@
 
 
 h1{
-  font-size: xx-large;
+  font-size: large;
   font-family: cursive;
-  
-
+  text-decoration: mediumspringgreen underline;
+  text-transform: uppercase;
 }
 
 input{
@@ -16,7 +16,7 @@ input{
     border-bottom: solid .1vh rgb(21, 23, 192);
   }
   #input-box{
-      background-color: aquamarine;
+      background-color: ;
   }
   input:hover{
     border-bottom: solid .10vh rgb(177, 53, 189);
@@ -26,4 +26,22 @@ input{
   }
   #image-border{
     border: 30px rgb(224, 121, 3) solid;
+  }
+  .header{
+    font-size: 50px;
+  }
+  .img{
+    
+
+  }
+  #text-field{
+   width: 40%;
+   background-color: mintcream;
+   border: green solid ;
+   
+
+  }
+  #submit-button{
+    background-color: purple;
+    
   }
