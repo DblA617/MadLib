@@ -26,18 +26,28 @@ input{
   }
   #image-border{
     border: 30px rgb(224, 121, 3) solid;
+    display: flex;
+    position: relative;
+   left: 290px;
   }
   .header{
     font-size: 50px;
+    text-align: center;
   }
-  .img{
-    
+  /* .img{
+    margin: auto;
+  } */
+ #move{
+ }
+  body{
+    margin: 25px 50px 75px 50px;
+  }
 
-  }
   #text-field{
-   width: 40%;
+   width: 20%;
    background-color: mintcream;
-   border: green solid ;
+   border: green solid 20px;
+   margin: auto;
    
 
   }
