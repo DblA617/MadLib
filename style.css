@@ -1,11 +1,11 @@
 
 
-
 h1{
   font-size: large;
   font-family: cursive;
   text-decoration: mediumspringgreen underline;
   text-transform: uppercase;
+  text-shadow: 4px 1px 0px #ff0000;
 }
 
 input{
@@ -22,7 +22,8 @@ input{
     border-bottom: solid .10vh rgb(177, 53, 189);
   }
   body{
-    background-color: rgb(243, 73, 186);
+    background: url(./Fresh\ Prince.jpg);
+    margin: 25px 50px 75px 50px;
   }
   #image-border{
     border: 30px rgb(224, 121, 3) solid;
@@ -37,21 +38,36 @@ input{
   /* .img{
     margin: auto;
   } */
- #move{
- }
-  body{
-    margin: 25px 50px 75px 50px;
-  }
+ 
 
   #text-field{
-   width: 20%;
-   background-color: mintcream;
-   border: green solid 20px;
-   margin: auto;
-   
-
+   width: 40%;
+   height: 20px;
+   border: green solid auto;
+  padding: 10px;
+  }
+  .row {
+    display: table;
+   box-sizing: border-box;
+   float: center;
   }
   #submit-button{
-    background-color: purple;
+    background-color: rgb(131, 87, 131);
+    border-radius: 10%;
+    width: fit-content;
+    
     
   }
+  #answer {
+    font-size: 25px;
+    font-family: fantasy;
+    color: rgb(217, 202, 236);
+    text-shadow: indigo 2px 1px 0px;
+  
+    background: black;
+    width: auto;
+
+  
+  }
+
+
